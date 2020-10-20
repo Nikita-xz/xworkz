@@ -17,6 +17,8 @@ boolean earthIsFlat;
 earthIsFlat=false;
 char grade;
 grade='A';
+  String day;
+  day=monday;
 System.out.println("fingers");
 System.out.println("daysInAYear");
 System.out.println("numberOfEnineersInIndia");
