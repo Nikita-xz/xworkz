@@ -26,7 +26,10 @@ public class CountryTester {
 		String[] language=new String[2];
 		language[0]="kannada";
 		language[1]="Hindhi";
-		countryDto.setStates(new String[] { "Jammu&Kashmir", "New Delhi", "Rajastan", "Gujarat", "Orissa", "MP",
+		language[2]="English";
+		CountryDTO dto4=new CountryDTO("Karnataka", "Kannada");
+		
+		countryDto4.setStates(new String[] { "Jammu&Kashmir", "New Delhi", "Rajastan", "Gujarat", "Orissa", "MP",
 				"Assam", "west Bengal", "Goa", "Maharastra", "Arunachal Pradesh", "Jharkand", "Karnataka", "AP", "TN",
 				"Kerala", "Jharkand", "Bihar" });
 		
